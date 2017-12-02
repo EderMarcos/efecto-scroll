@@ -1,0 +1,48 @@
+.no-margin {
+	margin: 0px !important;
+}
+
+.no-padding {
+	padding: 0px !important;
+}
+
+/*=============================================
+Efecto Scroll
+=============================================*/
+#scroll article aside {
+    border:1px solid silver;
+    position:relative;
+    background:white;
+    height:auto;
+    overflow: hidden;
+}
+
+/*#scroll article aside img{*/
+    /*width:100%;*/
+/*}*/
+
+#scroll article aside h1{
+    font-size:30px;
+    padding:10px 20px;
+    color:#666;
+}
+
+#scroll article aside p{
+    font-size:14px;
+    padding:0px 20px;
+}
+
+#scroll article aside button{
+    float:right;
+    margin:20px;
+    font-size:12px;
+    border:0px;
+    background:#333;
+    color:white;
+    padding:10px 20px;
+    cursor:pointer;
+}
+
+/*#scroll article {*/
+    /*margin: 0 auto;*/
+/*}*/
