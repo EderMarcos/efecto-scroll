@@ -23,7 +23,7 @@ var Parallax = {
         Parallax.maxWidth = (Parallax.windowWidth - Parallax.containerWidth - Parallax.scrollWidth) / 2;
 
         Parallax.positionScroll = window.pageYOffset;
-        if (Parallax.positionScroll < Parallax.maxWidth && Parallax.positionScroll > 0) {
+        if (Parallax.positionScroll < Parallax.maxWidth) {
             for (var i = 0; i < Parallax.articles.length; i++) {
                 Parallax.articles[i].style.marginLeft = window.pageYOffset + "px";
             }
